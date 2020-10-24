@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DAM_M08_ACT2</string>
+    <string name="mesura_a_convertir">Mesura a Convertir:</string>
+    <string name="go_to_convert">Go to Convert</string>
+    <string-array name="firstSpinner">
+        <item>Distancia</item>
+        <item>Peso</item>
+        <item>Temperatura</item>
+        <item>Bytes</item>
+    </string-array>
 </resources>
