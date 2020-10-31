@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
     Button nextPage;
@@ -24,11 +28,13 @@ public class MainActivity extends AppCompatActivity {
         final Spinner firstSpinner = (Spinner) findViewById(R.id.firstSpinner);
         firstSpinner.setAdapter(firstSpinnerArray);
 
+
         nextPage = (Button) findViewById(R.id.buttonNextPage);
         nextPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent nextPage = new Intent(MainActivity.this, ConvertActivity.class);
+                nextPage.putExtra("unitToConvert", firstSpinner.getSelectedItem().toString());
                 startActivity(nextPage);
             }
         });

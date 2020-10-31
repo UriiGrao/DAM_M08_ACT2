@@ -2,10 +2,67 @@
     <string name="app_name">DAM_M08_ACT2</string>
     <string name="mesura_a_convertir">Mesura a Convertir:</string>
     <string name="go_to_convert">Go to Convert</string>
+    <string name="a">A</string>
+    <string name="de">De</string>
+    <string name="convertir">Convertir</string>
+    <string name="unidad_a_convertir">Unidad a Convertir</string>
+
     <string-array name="firstSpinner">
-        <item>Distancia</item>
-        <item>Peso</item>
-        <item>Temperatura</item>
+        <item>Distancia</item> <!-- Longitud -->
+        <item>Peso</item> <!-- Masa -->
+        <item>Tiempo</item>
         <item>Bytes</item>
+    </string-array>
+
+    <string-array name="masaSpinner">
+        <item>Miligramo</item>
+        <item>Gramo</item>
+        <item>Kilogramo</item>
+        <item>Tonelada</item>
+    </string-array>
+
+    <string-array name="valoresMasaSpinner">
+        <item>1</item>
+        <item>1000</item>
+        <item>1000000</item>
+        <item>1000000000</item>
+    </string-array>
+
+    <string-array name="byteSpinner">
+        <item>byte</item>
+        <item>kilobyte</item>
+        <item>megabyte</item>
+        <item>gigabyte</item>
+    </string-array>
+
+    <string-array name="valoresByteSpinner">
+        <item>1</item>
+        <item>1024</item>
+        <item>1048576</item>
+        <item>1073741824</item>
+    </string-array>
+
+    <string-array name="longitudSpinner">
+        <item>milimetro</item>
+        <item>centimetro</item>
+        <item>metro</item>
+        <item>kilometro</item>
+    </string-array>
+
+    <string-array name="valoresLongitudSpinner">
+        <item>1</item>
+        <item>10</item>
+        <item>1000</item>
+        <item>1000000</item>
+    </string-array>
+
+    <string-array name="temperaturaSpinner">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+
+    <string-array name="valoresTempSpinner">
+        <item>1</item>
+        <item>32</item>
     </string-array>
 </resources>
